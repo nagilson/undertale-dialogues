@@ -29,7 +29,7 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("Text from Recruitment Drive, Voltatrice. Program sript ^ Art by Viruleince. Determination Mono by Abacadaba. Sound fx by Toby Fox.")
+define gui.about = _("Determination Mono by Abacadaba. Sound FX by Toby Fox.")
 
 
 ## A short name for the game used for executables and directories in the built
