@@ -22,11 +22,6 @@ init python:
             renpy.music.play("sound/GENERIC.wav", channel="sound", loop=True)
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
-    def callbackFox(event, **kwargs):
-       if event == "show":
-           renpy.music.play("sound/GENERIC.wav", channel="sound", loop=True)
-       elif event == "slow_done" or event == "end":
-           renpy.music.stop(channel="sound")
 
 define virru = Character("", callback = callback, what_font="font/utAuto.otf", what_size = 26, what_xpos = 60, what_ypos = -50)
 # The game starts here.
